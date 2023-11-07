@@ -1,0 +1,52 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-okaidia.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://codefinity-content-media-v2.s3.eu-west-1.amazonaws.com/courses/c1087363-9025-4c37-8d5e-983a32a007e9/buttons-section/hint-solution.css"
+/>
+
+<div class="button-container">
+  <button id="btn-hint" class="button" onclick="hintClick()">Hint</button>
+  <button id="btn-solution" class="button" onclick="solutionClick()">
+    Solution
+  </button>
+</div>
+
+<!-- ====== HINT ====== -->
+<div id="hint-block" class="block">
+  1. It is recommended to do ... <br />
+  2. Use such method <code>some code</code> text again <br />
+  3. Return the format <br />
+</div>
+
+<!-- ====== CODE ====== -->
+<div id="solution-block" class="block">
+  <pre><code class="language-javascript">
+const computer = {
+  brand: "Apple",
+  model: "MacBook Pro",
+  specifications: {
+    processor: "M2",
+    memory: "16GB RAM",
+    storage: "512GB SSD",
+  },
+  owner: {
+    name: "Emily",
+    username: "emily123",
+  }
+};
+
+function handleBtn (event) {
+  console.log(event);
+}
+      </code></pre>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
+<script src="https://codefinity-content-media-v2.s3.eu-west-1.amazonaws.com/courses/c1087363-9025-4c37-8d5e-983a32a007e9/buttons-section/hint-solution.js"></script>
